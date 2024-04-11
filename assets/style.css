@@ -38,6 +38,18 @@ h1 {
 	color: #000
 }
 
+/*ajout pour l'UX*/
+.nav a:hover {
+	color: #595721;
+	font-weight: 700;
+}
+
+/*ajout pour l'UX*/
+.nav li a:active {
+	color: #595721;
+	font-size: 700;
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -84,6 +96,9 @@ h1 {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	/*ajout car balise <q>*/
+    display: block;
+    margin-bottom: 8px;
 }
 #about-me p {
 	width: 80%;
@@ -102,12 +117,22 @@ h1 {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #595721;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	/*ajout pour UX*/
+	cursor: pointer;
 }
+
+/*ajout pour l'UX*/
+
+.nav-pills .nav-link:hover {
+	color: #595721;
+	font-weight: 500;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -125,6 +150,7 @@ h1 {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -147,6 +173,8 @@ h1 {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	/*ajout*/
+	font-size: 2.5rem;
 
 }
 .quote__author {
