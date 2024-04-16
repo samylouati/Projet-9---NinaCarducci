@@ -52,6 +52,7 @@ h1 {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -105,9 +106,10 @@ h1 {
 	font-size: 14px;
 }
 
-#gallery {
+/* #gallery {
 	/*	min-height: 100vh; */
-}
+} */
+
 .title{
 	text-align: center;
 	padding-block: 2em;
