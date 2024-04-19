@@ -2,7 +2,7 @@
 <html lang="fr"> <!--ajout langue du site-->
 	<head>
 		<!--ajout balises meta "description" avec differentes informations pour le referencement-->
-		<meta name="description" content="Photographie professionnelle Nina Carducci. Des photos uniques et inspirantes qui immortalises vos plus beaux moments: portraits, Mariages, événements spéciaux et plus encore. 68 avenue alsace lorraine 33200 bordeaux, 05 56 67 78 89 du lundi au vendredi de 10h à 19h.">
+		<meta name="description" content="Photographe professionnelle Nina Carducci. Des photos uniques et inspirantes qui immortalises vos plus beaux moments: portraits, Mariages, événements spéciaux et plus encore.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 		<link rel="stylesheet" href="./assets/style.css">
@@ -169,5 +169,33 @@
 				</div>
 			</div>
 		</footer>
+
+		<!--Schema.org : referencement local pour les recherches google-->
+
+	<script type= "application/ld+json" > 
+		{ 	"@context" : "https://schema.org", 
+			"@type" : "Person", 
+			"name" : "Nina Carducci", 
+			"sameAs" : [ "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+						"https://www.facebook.com/profile.php?id=61558264361129"]
+			"emplacement" : { 
+				"@type" : "Bordeaux", 
+				"adresse" : { 
+							"@type" : "68 avenue alsace lorraine", 
+							"addressLocality" : "Bordeaux" , 
+							"adresseRégion" : "33200 Gironde" 
+				},
+				"url" : "" 
+			},
+			"des offres" : { 
+							"@type" : "Photographe professionnelle" , 
+							"prixDevise" : "€uros" , 
+							"prixbas" : "50" , 
+							"offerCount" : "3" 
+			},
+			"startDate" : "2016-04-21T20:00" , 
+			"url" : "nba-miami-philidelphia-game3.html" 
+		}
+	</script>
 	</body>
 </html>
