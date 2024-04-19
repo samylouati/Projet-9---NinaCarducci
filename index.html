@@ -15,6 +15,42 @@
 		<script src="./assets/maugallery.js"></script>
 		<script src="./assets/scripts.js"></script>
 		<title>Nina Carducci photographe professionnelle Bordeaux</title> <!--Ajout d'une balise titre du site-->
+		
+		<!--Schema.org : referencement local pour les recherches google-->
+
+	<script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@type": "Photographer",
+		"name": "Nina Carducci",
+		"sameAs": [
+			"https://www.instagram.com/ninacarducci.photo/?hl=fr",
+			"https://www.facebook.com/profile.php?id=61558264361129"
+			],
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressRegion": "Gironde",
+			"addressCountry": "France"
+		},
+			"priceRange": "50-400",
+			"offers": {
+				"@type": "Offer",
+				"priceCurrency": "EUR",
+				"availability": "http://schema.org/InStock",
+				"price": "50",
+				"priceValidUntil": "2024-12-31",
+				"itemOffered": {
+					"@type": "Service",
+					"name": "Photography services"
+				}
+			},
+		"startDate": "2024-04-19",
+		"url": "https://example.com/nina-carducci"
+		}
+	</script>
 	</head>
 	<body>
 
@@ -169,41 +205,5 @@
 				</div>
 			</div>
 		</footer>
-
-		<!--Schema.org : referencement local pour les recherches google-->
-
-	<script type="application/ld+json">
-		{
-		"@context": "https://schema.org",
-		"@type": "Photographer",
-		"name": "Nina Carducci",
-		"sameAs": [
-			"https://www.instagram.com/ninacarducci.photo/?hl=fr",
-			"https://www.facebook.com/profile.php?id=61558264361129"
-			],
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"addressRegion": "Gironde",
-			"addressCountry": "France"
-		},
-			"priceRange": "50-400",
-			"offers": {
-				"@type": "Offer",
-				"priceCurrency": "EUR",
-				"availability": "http://schema.org/InStock",
-				"price": "50",
-				"priceValidUntil": "2024-12-31",
-				"itemOffered": {
-					"@type": "Service",
-					"name": "Photography services"
-				}
-			},
-		"startDate": "2024-04-19",
-		"url": "https://example.com/nina-carducci"
-		}
-	</script>
 	</body>
 </html>
