@@ -47,7 +47,7 @@ h1 {
 /*ajout pour l'UX*/
 .nav li a:active {
 	color: #595721;
-	font-size: 700;
+	font-weight: 700;
 }
 
 .social-link img {
